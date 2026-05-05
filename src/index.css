@@ -1,0 +1,32 @@
+@layer base {
+  :root {
+    /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  body {
+    user-select: none;
+  }
+}
+
+@theme {
+  --font-host: "Host Grotesk", sans-serif;
+  --text-grey: #383838;
+  --text-title: 7.5625rem;
+  --text-small-title: 5.0625rem;
+  --text-big-base: 2.25rem;
+  --text-base: 1.5rem;
+}
