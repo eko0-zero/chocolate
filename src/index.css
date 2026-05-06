@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+@import "tailwindcss";
+
 @layer base {
   :root {
     /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
@@ -23,10 +26,10 @@
 }
 
 @theme {
-  --font-host: "Host Grotesk", sans-serif;
+  --font-bricolage: "Bricolage Grotesque", sans-serif;
   --text-grey: #383838;
-  --text-title: 7.5625rem;
-  --text-small-title: 5.0625rem;
-  --text-big-base: 2.25rem;
-  --text-base: 1.5rem;
+  --text-xl: 10.625rem;
+  --text-lg: 2.5rem;
+  --text-md: 1.688rem;
+  --text-sm: 1.125rem;
 }
