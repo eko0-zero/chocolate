@@ -38,6 +38,13 @@
   --text-md: 1.688rem;
   --text-sm: 1.125rem;
 }
+
+.title {
+  font-family: var(--font-bricolage);
+  font-size: var(--text-lg);
+  color: #fff;
+  line-height: 110%; /* 44px */
+}
 .subtitle {
   font-family: var(--font-bricolage);
   font-size: var(--text-md);
