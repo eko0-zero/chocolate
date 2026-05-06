@@ -14,7 +14,7 @@ function App() {
         <img className="rotate-90" src={arrow} alt="" />
         <img className="rotate-180" src={arrow} alt="" />
       </div>
-      <div className="fixed top-15 left-15 text-sm font-bricolage">
+      <div className="fixed top-15 left-15 text-sm font-bricolage z-100">
         <span>[</span> Menu <span>]</span>
       </div>
       <div className="relative overflow-hidden w-screen flex flex-col mt-42">
@@ -109,6 +109,26 @@ function App() {
           discounted seats available. Once the quota is reached, the price
           increases gradually.
         </p>
+      </div>
+      <div className="title ml-15 mr-[calc(33%-15px)] mt-[225px]">
+        DJ contest
+      </div>
+      <div className="flex gap-5 text-sm font-bricolage ml-15 mt-10">
+        <button className="px-[10px] py-[2px] border border-white rounded-[100px] opacity-50">
+          2025
+        </button>
+        <button className="px-[10px] py-[2px] border border-white rounded-[100px] opacity-50">
+          2024
+        </button>
+        <button className="px-[10px] py-[2px] border border-white rounded-[100px] opacity-50">
+          2023
+        </button>
+        <button className="px-[10px] py-[2px] border border-white rounded-[100px] opacity-50">
+          2022
+        </button>
+        <button className="px-[10px] py-[2px] border border-white rounded-[100px] opacity-50">
+          2019
+        </button>
       </div>
     </>
   );
