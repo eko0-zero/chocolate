@@ -17,7 +17,7 @@ function App() {
       <div className="fixed top-9 left-15 text-sm font-bricolage">
         <span>[</span> Menu <span>]</span>
       </div>
-      <div className="relative overflow-hidden w-screen flex flex-col mt-40">
+      <div className="relative overflow-hidden w-screen flex flex-col mt-33">
         <h1 className=" text-xl font-dirtyline text-[#00FF33] whitespace-nowrap">
           CHOCOLATE FESTIVAL
         </h1>
@@ -27,6 +27,21 @@ function App() {
         <h1 className=" text-xl font-dirtyline text-[#00FF33] -mt-20 whitespace-nowrap">
           CHOCOLATE FESTIVAL
         </h1>
+      </div>
+      <div className="flex w-screen justify-between mt-10">
+        <div className="flex flex-col">
+          <div className="subtitle ml-15">Chocolate Festival</div>
+          <p className="ml-15">
+            Electronic Delight <br /> Festival
+          </p>
+        </div>
+        <div className="flex flex-col">
+          <div className="subtitle mr-15 text-right">5 & 6 June 2026</div>
+          <p className="mr-15 text-right">
+            Pyramides de Vidi
+            <br /> Lausanne
+          </p>
+        </div>
       </div>
     </>
   );

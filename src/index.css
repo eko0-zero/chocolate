@@ -32,9 +32,20 @@
 @theme {
   --font-bricolage: "Bricolage Grotesque", sans-serif;
   --font-dirtyline: "dirtyline";
-  --text-grey: #383838;
+  --text-grey: rgba(255, 255, 255, 0.5);
   --text-xl: 10.625rem;
   --text-lg: 2.5rem;
   --text-md: 1.688rem;
   --text-sm: 1.125rem;
+}
+.subtitle {
+  font-family: var(--font-bricolage);
+  font-size: var(--text-md);
+}
+
+p {
+  font-family: var(--font-bricolage);
+  font-size: var(--text-sm);
+  color: var(--text-grey);
+  line-height: 100%;
 }
