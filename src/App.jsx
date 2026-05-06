@@ -17,10 +17,16 @@ function App() {
       <div className="fixed top-9 left-15 text-sm font-bricolage">
         <span>[</span> Menu <span>]</span>
       </div>
-      <div className="relative">
-        <h1 className=" text-xl">Chocolate Festival</h1>
-        <h1 className=" text-xl ">Chocolate Festival</h1>
-        <h1 className=" text-xl">Chocolate Festival</h1>
+      <div className="relative overflow-hidden w-screen flex flex-col mt-40">
+        <h1 className=" text-xl font-dirtyline text-[#00FF33] whitespace-nowrap">
+          CHOCOLATE FESTIVAL
+        </h1>
+        <h1 className=" text-xl font-dirtyline text-[#00FF33] -mt-20 whitespace-nowrap">
+          CHOCOLATE FESTIVAL
+        </h1>
+        <h1 className=" text-xl font-dirtyline text-[#00FF33] -mt-20 whitespace-nowrap">
+          CHOCOLATE FESTIVAL
+        </h1>
       </div>
     </>
   );

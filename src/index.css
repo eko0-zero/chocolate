@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+@font-face {
+  font-family: "dirtyline";
+  src: url("/src/assets/font/dirtyline.ttf") format("truetype");
+}
 @import "tailwindcss";
 
 @layer base {
@@ -27,6 +31,7 @@
 
 @theme {
   --font-bricolage: "Bricolage Grotesque", sans-serif;
+  --font-dirtyline: "dirtyline";
   --text-grey: #383838;
   --text-xl: 10.625rem;
   --text-lg: 2.5rem;
