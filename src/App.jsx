@@ -78,6 +78,38 @@ function App() {
       <div className="ml-15 mt-6 text-sm font-bricolage">
         <span>[</span> Ticket office <span>]</span>
       </div>
+      <div className="flex ml-15 mt-20 gap-[8%]">
+        <div className="flex flex-col w-[25%] gap-[10px]">
+          <div className="subtitle">June 5 pass</div>
+          <p>
+            Fridays from 4:00 PM to 1:30 AM <br /> First price tier starting at
+            39.-
+          </p>
+        </div>
+        <div className="flex flex-col w-[25%] gap-[10px]">
+          <div className="subtitle">June 6 pass</div>
+          <p>
+            Saturdays from 3:00 PM to 1:30 AM <br />
+            First tier starting at 49.-
+          </p>
+        </div>
+        <div className="flex flex-col w-[25%] gap-[10px]">
+          <div className="subtitle">June 5-6 pass</div>
+          <p>
+            Fridays from 4:00 PM to 1:30 AM <br />
+            Saturdays from 3:00 PM to 1:30 AM <br />
+            First tier starting at 69.-
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col w-[30%] gap-[10px] ml-15 mt-10">
+        <div className="subtitle">Pricing</div>
+        <p>
+          Tickets are offered in price tiers, with a limited number of
+          discounted seats available. Once the quota is reached, the price
+          increases gradually.
+        </p>
+      </div>
     </>
   );
 }
