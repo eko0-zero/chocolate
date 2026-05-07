@@ -110,25 +110,42 @@ function App() {
           increases gradually.
         </p>
       </div>
-      <div className="title ml-15 mr-[calc(33%-15px)] mt-[225px]">
-        DJ contest
+
+      {/* --------------- */}
+      <div className="flex ml-[calc(15px+8.3%)] mr-[calc(15px+8.3%)] w-[calc(100%-16.6% - 30px)] justify-between mt-20">
+        <div className="flex flex-col gap-[20px]">
+          <div className="">Website</div>
+          <div className="flex flex-col gap-[5px] ">
+            <p>Home</p>
+            <p>Ticket office</p>
+            <p>Practical Information</p>
+            <p>Festival</p>
+            <p>Support Fund</p>
+          </div>
+        </div>
+        <div className="flex flex-col gap-[20px]">
+          <div className="">Contact</div>
+          <div className="flex flex-col gap-[5px]">
+            <p>
+              Chocolate Association <br /> Ch. de la Culturaz 34 <br /> 1095
+              Lutry Switzerland
+            </p>
+
+            <p>Email: info@chocolatefestival.ch</p>
+          </div>
+        </div>
+        <div className="flex flex-col gap-[20px]">
+          <div className="">Social</div>
+          <div className="flex flex-col gap-[5px]">
+            <p>Facebook</p>
+            <p>Youtube</p>
+            <p>SoundCloud</p>
+            <p>Vimeo</p>
+          </div>
+        </div>
       </div>
-      <div className="flex gap-5 text-sm font-bricolage ml-15 mt-10">
-        <button className="px-[10px] py-[2px] border border-white rounded-[100px] opacity-50">
-          2025
-        </button>
-        <button className="px-[10px] py-[2px] border border-white rounded-[100px] opacity-50">
-          2024
-        </button>
-        <button className="px-[10px] py-[2px] border border-white rounded-[100px] opacity-50">
-          2023
-        </button>
-        <button className="px-[10px] py-[2px] border border-white rounded-[100px] opacity-50">
-          2022
-        </button>
-        <button className="px-[10px] py-[2px] border border-white rounded-[100px] opacity-50">
-          2019
-        </button>
+      <div className="text-center text-sm mt-20 mb-10 font-bricolage">
+        Website by Kohler Liam & Clara Del Vecchio
       </div>
     </>
   );
